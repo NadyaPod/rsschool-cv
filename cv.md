@@ -8,3 +8,34 @@ For the past 8 years, I worked as an HR Manager in tech companies. Now I decided
 
 ## Experience 💼
 8 years experience in HR-field: IT Recruiter, HR Generalist. 
+
+## Higher Education 🎓
+NSU - Psychology, 2014
+
+## Courses ✨
+* Freecodecamp - Responsive Web Design<br>
+* Hexlet - Layout Designer<br>
+* Code Basics - HTML, CSS, Javascript
+
+## Projects 🖼️
+[Crappo Page](https://nadyapod.github.io/Crappo/)<br>
+[Beauty Page](https://nadyapod.github.io/beauty-project/)
+
+## Code Example
+``` Javascript
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+  const smallest = args.sort(( a, b ) =>  a - b); 
+    return smallest[0];
+  }
+} 
+```
+
+## Skills 🔨
+* HTML
+* CSS
+* Git
+
+## English 🌎
+Russian - Native<br>
+English - B1
