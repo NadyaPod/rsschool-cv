@@ -17,13 +17,22 @@
 </head>
 <body>
   <div class="wrapper">
-	  <header class="header">
-			<div class="img-container">
-				<img src="" alt="NP photo" class="photo">
-			</div>
-			<div class="title-container">
-				<h1>Nadya Podyacheva</h1>
-				<span class="j-fe">Junior Frontend</span><span class="cv-page">CV Page</span>
+		<header class="header">
+			<nav class="nav">
+				<ul>
+					<li class="nav-item"><a href="#">About</a></li>
+					<li class="nav-item"><a href="#">Projects</a></li>
+					<li class="nav-item last"><a href="#">Contacts</a></li>
+				</ul>
+			</nav>
+			<div class="header-info">
+				<div class="img-container">
+					<img src="" alt="NP photo" class="photo">
+				</div>
+				<div class="title-container">
+					<h1>Nadya Podyacheva</h1>
+					<span class="j-fe">Junior Frontend</span><span class="cv-page">CV Page</span>
+				</div>
 			</div>
 		</header>
 
@@ -47,11 +56,29 @@
 					<li><h3>Crappo Page</h3><a href="https://nadyapod.github.io/Crappo/" _blank><img src="./images/Crappo.png" alt="" width="250"></a></li>
 					<li><h3>Beauty Page</h3><a href="https://nadyapod.github.io/beauty-project/"><img src="./images/Beauty.png" alt="" width="250"></a></li>
 				</ul>
-
 			</section>
 
+			<section class="info-wrapper">
+				<h2 class="code-title">Code example</h2>
+				<pre data-trimmed="true">
+					<code data-language="javascript">
+function friend (friends) {
+
+let friendsArr = [];
+let foesArr = [];
+
+for (let i = 0; i < friends.length; i++) {
+	if (friends[i].length === 4) {
+	  friendsArr.push(friends[i]);
+	} else {
+	  foesArr.push(friends[i]);
+	  }
+  } return friendsArr;
+}
+					</code>
+				</pre>
+			</section>
 		</main>
-	
 	</div>
 
 </body>
