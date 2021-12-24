@@ -31,6 +31,7 @@ body {
 .nav-item a {
 	text-decoration: none;
 	font-family: 'Syncopate', serif;
+	font-size: 14px;
 	color: rgb(175, 169, 169);
 	padding-right: 15px;
 	padding-left: 20px;
@@ -79,6 +80,17 @@ h1 {
 .cv-page {
 	font-family: 'Syncopate', serif;
 	color: rgb(175, 169, 169);
+	padding-left: 20px;
+}
+
+.contacts {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 80px;
+	list-style-type: none;
+}
+
+.contacts li:not(:first-child) {
 	padding-left: 20px;
 }
 
