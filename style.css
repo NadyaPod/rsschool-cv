@@ -34,7 +34,7 @@ body {
 	font-size: 14px;
 	color: rgb(175, 169, 169);
 	padding-right: 15px;
-	padding-left: 20px;
+	padding-left: 15px;
 	border-right: 2px rgb(175, 169, 169) solid;
 }
 
@@ -56,15 +56,18 @@ body {
 }
 
 .img-container {
-	width: 30%;
+	width: 35%;
 }
 
 .photo {
-	max-width: 250px;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: 70px;
+	
 }
 
 .title-container {
-	width: 70%;
+	width: 65%;
 	margin: 30px;
 }
 
@@ -156,6 +159,7 @@ h1 {
 	justify-content: space-around;
 	list-style-type: none;
 	margin-top: 0;
+	padding-left: 0;
 	padding-bottom: 18px;
 }
 
@@ -175,7 +179,24 @@ h3 {
 }
 
 .info-wrapper pre {
+	padding-bottom: 40px;
 	margin-bottom: 0;
+
+}
+
+.keyword {
+	
+	color: #2f69a3;
+}
+
+.brackets {
+	color: #7b0d9c
+}
+
+code {
+	font-family: monospace;
+	font-size: 16px;
+	font-weight: 700;
 }
 
 .footer {
@@ -196,7 +217,7 @@ h3 {
 }
 
 .footer-info li {
-	transition: transform .3s;
+	transition: transform 0.3s;
 }
 
 .copywright {
@@ -214,7 +235,7 @@ h3 {
 }
 
 .zoom-project {
-	transition: ease .4s;
+	transition: ease 0.4s;
 }
 
 .zoom-project:hover {
