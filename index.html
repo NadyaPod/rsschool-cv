@@ -20,10 +20,10 @@
   <div class="wrapper">
 		<header class="header">
 			<nav class="nav">
-				<ul>
-					<li class="nav-item"><a href="#">About</a></li>
-					<li class="nav-item"><a href="#">Projects</a></li>
-					<li class="nav-item last"><a href="#">Contacts</a></li>
+				<ul class="nav-info">
+					<li class="nav-item"><a href="#about">About</a></li>
+					<li class="nav-item"><a href="#projects">Projects</a></li>
+					<li class="nav-item last"><a href="#contacts">Contacts</a></li>
 				</ul>
 			</nav>
 			<div class="header-info">
@@ -33,11 +33,11 @@
 				<div class="title-container">
 					<h1>Nadya Podyacheva</h1>
 					<span class="j-fe">Junior Frontend</span><span class="cv-page">CV Page</span>
-					<ul class="contacts">
-						<li><a href="https://github.com/NadyaPod" target="_blank"><img src="./images/github-icon.svg" width="24" height="24" alt="Github icon"></a>
+					<ul class="contacts" id="contacts">
+						<li class="zoom"><a href="https://github.com/NadyaPod" target="_blank"><img src="./images/github-icon.svg" width="24" height="24" alt="Github icon"></a>
 						</li>
-						<li><a href="https://t.me/NadyaPod" target="_blank"><img src="./images/telegram-icon.svg" width="24" height="24" alt="Telegram icon"></img></a></li>
-						<li><a href="#" target="_blank"><img src="./images/linkedin-icon.svg" width="24" height="24" alt="Linkedin icon"></a></li>
+						<li class="zoom"><a href="https://t.me/NadyaPod" target="_blank"><img src="./images/telegram-icon.svg" width="24" height="24" alt="Telegram icon"></img></a></li>
+						<li class="zoom"><a href="#" target="_blank"><img src="./images/linkedin-icon.svg" width="24" height="24" alt="Linkedin icon"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -45,28 +45,38 @@
 
 		<main class="main">
 			<section class="info-wrapper">
-				<h2 class="about-title">About</h2>
+				<h2 class="title" id="about">About</h2>
 				<p class="about-text">For the past 8 years, I worked as an HR Manager in tech companies. Now I decided to change my career path and dive into front-end development. For the years I worked with SWE, provided recruitment and onboarding processes to the product teams. More and more I involved in their process, products and interested in how everything works, but I always felt that there was a boundary between my background and tech-industry. And one day I realized that I want to explore that boundary and try myself in a new area, because I want to create products and grow as a specialist.</p>
 			</section>
 
 			<section class="info-wrapper">
-				<h2 class="experiece-education-title">Experience & Education</h2>
-				  <ul class="ee-list">
-						<li class="ee-list-item">~8 years experience in HR-field: IT Recruiter, HR Generalist.</li>
-						<li class="ee-list-item">Higher Education, NSU - Psychology, 2014</li>
+				<h2 class="title">Experience & Education</h2>
+				  <ul class="list">
+						<li class="list-item">~8 years experience in HR-field: IT Recruiter, HR Generalist.</li>
+						<li class="list-item">Higher Education, NSU - Psychology, 2014</li>
 					</ul>
 			</section>
 
 			<section class="info-wrapper">
-				<h2 class="projects-title">Projects</h2>
-				<ul class="projects-info">
-					<li><h3>Crappo Page</h3><a href="https://nadyapod.github.io/Crappo/" _blank><img src="./images/Crappo.png" alt="" width="250"></a></li>
-					<li><h3>Beauty Page</h3><a href="https://nadyapod.github.io/beauty-project/"><img src="./images/Beauty.png" alt="" width="250"></a></li>
+				<h2 class="title">Skills</h2>
+				<ul class="list">
+					<li class="list-item">HTML</li>
+					<li class="list-item">CSS</li>
+					<li class="list-item">Git</li>
+					<li class="list-item">English: B1</li>
 				</ul>
 			</section>
 
 			<section class="info-wrapper">
-				<h2 class="code-title">Code example</h2>
+				<h2 class="title" id="projects">Projects</h2>
+				<ul class="projects-info">
+					<li class="project-item"><h3>Crappo Page</h3><a href="https://nadyapod.github.io/Crappo/" _blank><img src="./images/Crappo.png" alt="" width="250" height="149" class="zoom-project"></a></li>
+					<li class="project-item"><h3>Beauty Page</h3><a href="https://nadyapod.github.io/beauty-project/"><img src="./images/Beauty.png" alt="" width="250" height="149" class="zoom-project"></a></li>
+				</ul>
+			</section>
+
+			<section class="info-wrapper code">
+				<h2 class="title">Code example</h2>
 				<pre data-trimmed="true">
 					<code data-language="javascript">
 function friend (friends) {
@@ -85,6 +95,18 @@ for (let i = 0; i < friends.length; i++) {
 					</code>
 				</pre>
 			</section>
+
+			<footer class="footer">
+				<ul class="footer-info">
+					<li class="zoom"><a href="https://github.com/NadyaPod" target="_blank"><img src="./images/github-icon.svg" width="42" height="42" alt="Github icon"></a>
+					</li>
+					<li class="zoom"><a href="https://rs.school/js/" target="_blank"><img src="./images/rsschool-logo.svg" width="64" height="64" alt="RS School logo"></a>
+					</li>
+					<li class="copywright">&COPY; 2021 NadyaPod</li>
+
+
+				</ul>
+			</footer>
 		</main>
 	</div>
 
