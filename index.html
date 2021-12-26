@@ -19,21 +19,21 @@
 <body>
   <div class="wrapper">
 		<header class="header">
-			<nav class="nav">
-				<ul class="nav-info">
+			<nav class="nav-wrap">
+				<ul class="nav-items">
 					<li class="nav-item"><a href="#about">About</a></li>
 					<li class="nav-item"><a href="#projects">Projects</a></li>
 					<li class="nav-item last"><a href="#contacts">Contacts</a></li>
 				</ul>
 			</nav>
-			<div class="header-info">
+			<div class="header-wrap">
 				<div class="img-container">
-					<img src="./images/NP.jpg" alt="NP photo" width="190" height="190" class="photo">
+					<img src="./images/NP.jpg" alt="NP photo" width="190" height="190" class="image">
 				</div>
 				<div class="title-container">
-					<h1>Nadya Podyacheva</h1>
-					<span class="j-fe">Junior Frontend</span><span class="cv-page">CV Page</span>
-					<ul class="contacts" id="contacts">
+					<h1 class="main-title">Nadya Podyacheva</h1>
+					<span class="text-jf">Junior Frontend</span><span class="text-cp">CV Page</span>
+					<ul class="contacts-wrap" id="contacts">
 						<li class="zoom"><a href="https://github.com/NadyaPod" target="_blank" rel="noopener noreferrer"><img src="./images/github-icon.svg" width="24" height="24" alt="Github icon"></a>
 						</li>
 						<li class="zoom"><a href="https://t.me/NadyaPod" target="_blank" rel="noopener noreferrer"><img src="./images/telegram-icon.svg" width="24" height="24" alt="Telegram icon"></a></li>
@@ -43,13 +43,13 @@
 			</div>
 		</header>
 
-		<main class="main">
-			<section class="info-wrapper">
+		<main class="main-wrap">
+			<section class="info-wrap">
 				<h2 class="title" id="about">About</h2>
 				<p class="about-text">For the past 8 years, I worked as an HR Manager in tech companies. Now I decided to change my career path and dive into front-end development. For the years I worked with SWE, provided recruitment and onboarding processes to the product teams. More and more I involved in their process, products and interested in how everything works, but I always felt that there was a boundary between my background and tech-industry. And one day I realized that I want to explore that boundary and try myself in a new area, because I want to create products and grow as a specialist.</p>
 			</section>
 
-			<section class="info-wrapper">
+			<section class="info-wrap">
 				<h2 class="title">Experience & Education</h2>
 				  <ul class="list">
 						<li class="list-item">~8 years experience in HR-field: IT Recruiter, HR Generalist.</li>
@@ -57,7 +57,7 @@
 					</ul>
 			</section>
 
-			<section class="info-wrapper">
+			<section class="info-wrap">
 				<h2 class="title">Skills</h2>
 				<ul class="list">
 					<li class="list-item">HTML</li>
@@ -67,34 +67,34 @@
 				</ul>
 			</section>
 
-			<section class="info-wrapper">
+			<section class="info-wrap">
 				<h2 class="title" id="projects">Projects</h2>
-				<ul class="projects-info">
+				<ul class="projects-list">
 					<li class="project-item"><h3>Crappo Page</h3><a href="https://nadyapod.github.io/Crappo/" target="_blank" rel="noopener noreferrer"><img src="./images/Crappo.png" alt="" width="250" height="149" class="zoom-project"></a></li>
 					<li class="project-item"><h3>Beauty Page</h3><a href="https://nadyapod.github.io/beauty-project/" target="_blank" rel="noopener noreferrer"><img src="./images/Beauty.png" alt="" width="250" height="149" class="zoom-project"></a></li>
 				</ul>
 			</section>
 
-			<section class="info-wrapper code">
+			<section class="info-wrap code-wrap">
 				<h2 class="title">Code example</h2>
-				<pre data-trimmed="true">
-					<code data-language="javascript">
-  <span class="keyword">function</span> friend (friends) {
+				<pre>
+					<code class="snippet">
+  <span class="keyword-blue">function</span> friend (friends) {
 
-  <span class="keyword">let</span> friendsArr = <span class="brackets">[];</span>
-  <span class="keyword">let</span> foesArr = <span class="brackets">[];</span>
+  <span class="keyword-blue">let</span> friendsArr = <span class="keyword-purple">[];</span>
+  <span class="keyword-blue">let</span> foesArr = <span class="keyword-purple">[];</span>
 
-  <span class="brackets">for</span> (<span class="keyword">let</span> i = 0; i &lt; friends.length; i++) {
-    <span class="brackets">if</span> (friends[i].length === 4) {
+  <span class="keyword-purple">for</span> (<span class="keyword-blue">let</span> i = 0; i &lt; friends.length; i++) {
+    <span class="keyword-purple">if</span> (friends[i].length === 4) {
       friendsArr.push(friends[i]);
-    } <span class="brackets">else</span> {
+    } <span class="keyword-purple">else</span> {
       foesArr.push(friends[i]);
       }
-    } <span class="brackets">return</span> friendsArr;
+    } <span class="keyword-purple">return</span> friendsArr;
   }</code></pre>
 			</section>
 
-			<footer class="footer">
+			<footer class="footer-wrap">
 				<ul class="footer-info">
 					<li class="zoom"><a href="https://github.com/NadyaPod" target="_blank" rel="noopener noreferrer"><img src="./images/github-icon.svg" width="42" height="42" alt="Github icon"></a>
 					</li>
