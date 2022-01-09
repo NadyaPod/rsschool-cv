@@ -15,6 +15,7 @@ body {
 	padding-top: 15px;
 	background-color: #fff;
 	border-radius: 10px;
+	box-shadow: 3px 4px 20px #959697;
 }
 
 .nav-wrap {
@@ -54,6 +55,7 @@ body {
 	margin: 0 auto 40px;
 	background-color: #e5f3f0;
 	border-radius: 10px;
+	box-shadow: 3px 4px 20px #b7bdbb;
 }
 
 .img-container {
